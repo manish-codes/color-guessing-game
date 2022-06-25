@@ -69,11 +69,13 @@ body{
 }
 .left{
     display: inline-block;
-    position: relative;
-    transform: translate(64px,-314px);
+    position: fixed;
+    left: 87px;
+    top: 278px;
 }
 .right{
     display: inline-block;
-    position: relative;
-    transform: translate(852px,-314px);
+    position: fixed;
+    right: 87px;
+    top: 278px;
 }
